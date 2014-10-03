@@ -1,5 +1,5 @@
-define(['jquery', '../NotesManager'], function($, NotesManager){
-    $(function () {
+define(['jquery', '../NotesManager', '../test'], function($, NotesManager){
+/*    $(function () {
         var notes = [
             "This is the first note I've taken!",
             "Now is the time for all good men to come to the aid of their country.",
@@ -8,7 +8,7 @@ define(['jquery', '../NotesManager'], function($, NotesManager){
 
         var nm = new NotesManager(notes);
         nm.init();
-    });
+    });*/
 });
 
 
