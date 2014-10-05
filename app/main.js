@@ -1,4 +1,4 @@
-define(['jquery', '../NotesManager', '../test'], function($, NotesManager){
+define(['jquery', '../NotesManager'], function($, NotesManager){
 /*    $(function () {
         var notes = [
             "This is the first note I've taken!",
@@ -9,6 +9,9 @@ define(['jquery', '../NotesManager', '../test'], function($, NotesManager){
         var nm = new NotesManager(notes);
         nm.init();
     });*/
+    //require(['../test']);
+    //require(['../oloo']);
+    require(['../modulepattern']);
 });
 
 
