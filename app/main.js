@@ -11,7 +11,10 @@ define(['jquery', '../NotesManager'], function($, NotesManager){
     });*/
     //require(['../test']);
     //require(['../oloo']);
-    require(['../modulepattern']);
+    //require(['../modulepattern']);
+	//require(['../behaviordelegation']);
+	//require(['../oloo_course']);
+	require(['../qtest']);
 });
 
 
