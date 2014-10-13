@@ -16,6 +16,7 @@ define(['jquery', '../NotesManager'], function($, NotesManager){
 	//require(['../oloo_course']);
 	//require(['../qtest']);
     require(['../additionfactory']);
+	//require(['../coursefriday']);
 });
 
 
