@@ -22,15 +22,15 @@ define(['jquery'], function ($) {
 
     var counter = Counter();
 
-    counter.countClicks($('.clickme'));
-    $('#clicked-count').click(function() {
+    counter.countClick($('.clickme'));
+    $('.clickme').click(function() {
         $('#clicked-count').html(counter.getCount());
     });
 
     var counter2 = Counter();
 
-    counter2.countClicks($('.clickme2'));
-    $('#clicked-count2').click(function() {
+    counter2.countClick($('.clickme2'));
+    $('.clickme2').click(function() {
         $('#clicked-count2').html(counter2.getCount());
     });
 });
