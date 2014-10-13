@@ -5,7 +5,7 @@ define(function() {
         function traverseP(obj) {
             do {
                 //console.log(obj);
-            } while(obj = obj.__proto__);
+            } while(!!(obj = Object.getPrototypeOf(obj)));
         }
 
         return {

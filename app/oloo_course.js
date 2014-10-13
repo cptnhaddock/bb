@@ -11,7 +11,7 @@ define(function () {
 		callback: function () {
 			console.log('data loaded from: ' + this.url);
 		}
-	}
+	};
 
 	var loader = Object.create(Loader);
 	loader.init('www.1337rules.com');

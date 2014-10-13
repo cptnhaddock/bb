@@ -13,7 +13,7 @@ define(function () {
 		callback: function () {
 			console.log('data loaded from: ' + this.url);
 		}
-	}
+	};
 
 	var loader = Object.create(Loader);
 	loader.init('www.verisurerules.com');

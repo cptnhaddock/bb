@@ -26,7 +26,7 @@ define(['q'], function (Q) {
 		callback: function () {
 			console.log('data loaded from: ' + this.url);
 		}
-	}
+	};
 
 	var loader = Object.create(Loader);
 	loader.init('www.verisurerulesman.com');

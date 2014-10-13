@@ -4,7 +4,7 @@ define(['jquery'], function ($) {
 
         function increment() {
             count++;
-        };
+        }
 
         var countClicks = function(element) {
             element.click(increment);
