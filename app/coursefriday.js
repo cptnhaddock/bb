@@ -25,8 +25,6 @@ define([], function () {
 		};
 	})();
 
-	;
-
 	console.log(cache.set(1));
 	console.log(cache.typeOf(0));
 
