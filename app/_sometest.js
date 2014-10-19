@@ -7,7 +7,6 @@ define(['underscore'], function(_){
     }
 
     var result = _.some(known, function (item) {
-        console.log(item.name);
         return exists(item.name);
     });
 

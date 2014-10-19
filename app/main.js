@@ -17,10 +17,11 @@ define(['jquery', '../NotesManager'], function($, NotesManager){
 	//require(['../qtest']);
     //require(['../additionfactory']);
 	//require(['../coursefriday']);
-    require(['../_sometest']);
+    //require(['../_sometest']);
 	//require(['../coursemonday']);
 	//require(['../qcourse']);
 	//require(['../coursemonday']);
+    require(['../refactor/finder']);
 });
 
 
