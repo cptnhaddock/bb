@@ -99,7 +99,8 @@ define(['jquery'], function($) {
     }
 
     NotesManager.prototype.init = function () {
-      initListeners();
+    	initListeners();
+		$('[data-id="notesmanager"]').show();
     };
 
     return NotesManager;
